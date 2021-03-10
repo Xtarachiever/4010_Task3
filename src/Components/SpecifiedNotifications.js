@@ -1,5 +1,6 @@
 import React from 'react'
 import { Component } from 'react'
+import { Col } from 'reactstrap';
 
 class specifiedNotifications extends Component {
     constructor(props){
@@ -10,11 +11,17 @@ class specifiedNotifications extends Component {
     }
     render(){
         return (
-            <div>
+            <div className="container specific">
                 <form onSubmit={this.props.onSubmit}>
                     <p>Notifications Form</p>
-                    <input type="text" placeholder="Name"/>
-                    <button>Submit</button>
+                    <div className="row">
+                        <Col className="col-sm-10 col-12">
+                            <input type="text" placeholder="Name" className="form-control"/>
+                        </Col>
+                        <div className="col-12 col-sm-2">
+                            <button type="submit" className="btn-lg">Submit</button>
+                        </div>
+                    </div>
                 </form>
             </div>
         )

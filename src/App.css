@@ -110,7 +110,7 @@ p.days{
   background-color: #575DA6;
   color: white;
   margin: 10px;
-  padding: 5px;
+  padding: 10px;
   border-radius: 10px;
   width: max-content;
 } 
@@ -126,3 +126,21 @@ p.days{
   transform: translate(-50%,-50%);
   display: inline-block;
 } */
+/* Specified Notifications */
+.specific{
+  margin: 40px 0px;
+}
+.specific p{
+  font-size: 20px;
+  font-weight: 500;
+}
+.specific button{
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #575DA6;
+  color: white;
+  font-weight: 600;
+  height: 100%;
+  font-size: 16px;
+}
