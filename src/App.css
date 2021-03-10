@@ -1,0 +1,128 @@
+body{
+  width: 100%;
+  height: 100%;
+  background-color: thistle !important;
+}
+.App {
+  text-align: center;
+}
+img{
+  object-fit: cover;
+}
+.sections{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.sections img{
+  align-self: center;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.search{
+  display: flex;
+  align-items: center;
+}
+.search input{
+  padding-left: 35px;
+}
+.search i{
+  position: absolute;
+  left: 30px;
+}
+.header{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.text span{
+  text-align: left;
+}
+.sections img{
+  position: relative;
+}
+.sections .person{
+  cursor: pointer;
+}
+.sections .person sup{
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  left: 45px;
+  background-color: red;
+  padding: 8px 5px 8px 5px;
+  border-radius: 50px;
+  color: white;
+}
+.social{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 4px;
+  border-radius: 5px;
+}
+.interface{
+  margin-top: 20px;
+  background-color: white;
+  padding: 6px;
+  border-radius: 5px;
+}
+/* Modal */
+.modal-sample{
+  background-color: thistle;
+  padding:0 15px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.modal-sample img{
+  width: 20%;
+  align-self: center;
+  justify-content: center;
+}
+.modal-sample .img_side{
+  display: flex;
+}
+/* Notification's style */
+.notifications{
+  margin-top: 30px;
+}
+.eachAnnouncements{
+  background-color: white;
+  border-radius: 20px;
+  padding: 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.announce{
+  margin-top: 30px;
+}
+.eachAnnouncements p{
+  text-align: left;
+}
+p.days{
+  background-color: #575DA6;
+  color: white;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  width: max-content;
+} 
+.sampleImages{
+  width: 50px;
+}
+/* .announce{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: inline-block;
+} */
