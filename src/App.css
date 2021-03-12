@@ -42,20 +42,19 @@ img{
 .text span{
   text-align: left;
 }
-.sections img{
-  position: relative;
-}
 .sections .person{
   cursor: pointer;
+  position: relative;
+  display: inline-block;
 }
 .sections .person sup{
   position: absolute;
   z-index: 2;
-  top: 0px;
-  left: 45px;
+  top: -5px;
+  right: 0px;
   background-color: red;
-  padding: 8px 5px 8px 5px;
-  border-radius: 50px;
+  padding: 10px 5px 10px 5px;
+  border-radius: 50%;
   color: white;
 }
 .social{
