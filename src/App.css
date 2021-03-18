@@ -71,11 +71,6 @@ img{
   width: 150px;
   justify-content: space-between;
 }
-.interface{
-  background-color: white;
-  padding: 1px 6px;
-  border-radius: 5px;
-}
 /* Modal */
 .modal-sample{
   background-color: thistle;
@@ -140,11 +135,11 @@ p.days{
   height: 100%;
   font-size: 16px;
 }
-.social_img img{
+.social_img img,.interface img{
   padding: 6px 6px;
   background-color: white;
   border-radius: 5px;
-  height: 25px;
+  height: 35px;
 }
 .sections div{
   margin-left: 10px;

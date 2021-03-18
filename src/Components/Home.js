@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Interface from '../images/interface.png';
+import Interface from '../images/interface@2x.png';
 import people from '../images/people.png';
 import social from '../images/social.png';
 import gear from '../images/gear.png';
