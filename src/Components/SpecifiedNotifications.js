@@ -15,7 +15,7 @@ class specifiedNotifications extends Component {
                 <form onSubmit={this.props.onSubmit}>
                     <p>Notifications Form</p>
                     <div className="row">
-                        <Col className="col-sm-10 col-12">
+                        <Col className="col-sm-10 col-12 mb-3 mb-sm-0">
                             <input type="text" placeholder="Name" className="form-control"/>
                         </Col>
                         <div className="col-12 col-sm-2">
